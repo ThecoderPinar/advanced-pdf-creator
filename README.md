@@ -50,7 +50,6 @@ The **Advanced PDF Creator Application** is a powerful, user-friendly tool that 
 - **FPDF:** Library for generating PDF files.
 - **Pillow (PIL):** Library for image processing and manipulation.
 - **CSS & HTML:** Used for styling and structuring the web interface.
-- **Docker:** Containerization for easy deployment and scaling.
 - **GitHub Actions:** Continuous Integration and Continuous Deployment (CI/CD) pipeline.
 
 ---
@@ -62,9 +61,7 @@ The **Advanced PDF Creator Application** follows a modular architecture pattern 
 1. **Frontend:** Built using Streamlit, providing an interactive and intuitive user interface.
 2. **Backend:** Python-based backend that handles document generation, user input processing, and data management.
 3. **Document Processing Engine:** Powered by FPDF and Pillow libraries, managing the creation, manipulation, and formatting of PDFs.
-4. **API Layer:** RESTful API endpoints for integrating the application with third-party services.
 5. **Security Layer:** Implements JWT-based authentication and authorization to secure user data.
-6. **Deployment:** Dockerized for easy deployment and scalability across different environments.
 
 ---
 
@@ -133,22 +130,6 @@ This section provides a detailed guide on how to use the **Advanced PDF Creator 
 - Click on **"Generate PDF"** to create a downloadable PDF document.
 - PDFs are stored temporarily on the server; download promptly or save as a draft.
 
-## ⚙️ Configuration
-
-To customize the application, modify the `config.py` file to set environment variables and tweak default settings:
-
-- **APP_TITLE:** Customize the application title.
-- **PDF_DEFAULT_FONT:** Set the default font for PDF generation.
-- **ALLOWED_IMAGE_FORMATS:** Define which image formats are acceptable for uploads.
-- **MAX_FILE_SIZE:** Adjust the maximum allowable file size for uploads.
-
-### Environment Variables
-
-For enhanced security and flexibility, the application utilizes environment variables:
-
-- **SECRET_KEY:** Used for session management and security.
-- **DEBUG_MODE:** Toggle between development and production environments.
-
 ## 🖼️ Examples and Screenshots
 
 ### Main Interface
@@ -162,43 +143,6 @@ The real-time document preview feature allows users to see their changes instant
 ### PDF Download
 Once the document is customized to the user's satisfaction, it can be downloaded in PDF format. The "Generate PDF" button creates a high-quality PDF file that is ready for sharing or printing.  
 [View PDF Download Screenshot](#)
-
-## 📡 API Documentation
-
-### Overview
-The **Advanced PDF Creator Application** offers a set of REST API endpoints to enable seamless integration with other applications and services. These endpoints allow you to generate PDFs, upload images, and retrieve saved documents programmatically.
-
-### API Endpoints
-
-- **`/api/generate-pdf`**  
-  - **Description:** Generates a PDF with the provided content and settings.
-  - **Method:** `POST`
-  - **Request Body:** JSON object containing text content, formatting options, images, and table data.
-  - **Response:** Returns a URL to download the generated PDF.
-  - **Example Call:**
-    ```bash
-    curl -X POST https://yourapp.com/api/generate-pdf -d '{"text": "Sample Text", "format": {"bold": true}}'
-    ```
-
-- **`/api/upload-image`**  
-  - **Description:** Uploads an image to be included in the document.
-  - **Method:** `POST`
-  - **Request Body:** Multipart/form-data containing the image file.
-  - **Response:** Returns a unique identifier for the uploaded image that can be used in subsequent PDF generation requests.
-  - **Example Call:**
-    ```bash
-    curl -X POST https://yourapp.com/api/upload-image -F 'image=@/path/to/image.png'
-    ```
-
-- **`/api/get-document`**  
-  - **Description:** Retrieves a previously saved document or draft.
-  - **Method:** `GET`
-  - **Request Params:** `document_id` (String) - The unique identifier of the document.
-  - **Response:** Returns the document in the requested format (e.g., PDF).
-  - **Example Call:**
-    ```bash
-    curl -X GET https://yourapp.com/api/get-document?document_id=12345
-    ```
 
 ### Documentation Link
 For more information about the API, including detailed endpoint descriptions, request/response formats, and example calls, refer to the [API Documentation](#).

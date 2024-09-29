@@ -18,7 +18,21 @@
       "Farklı dillerde PDF oluşturma seçeneklerini ne kadar kullanışlı buldunuz?"
     ],
     "contact_title": "📞 Geliştiriciyle İletişim",
-    "contact_description": "**Merhaba! Ben Pınar Topuz,** bu uygulamanın geliştiricisiyim. Yazılım geliştirme ve kullanıcı dostu çözümler yaratma konusundaki tutkum, bu uygulamayı geliştirmemde büyük rol oynadı. Kullanıcılara en iyi belge yönetim deneyimini sunmak için buradayım.\n\n**İletişim Bilgilerim:**\n- 📧 **E-posta:** [piinartp@gmail.com](mailto:piinartp@gmail.com)\n- 💼 **LinkedIn:** [LinkedIn Profilim](https://www.linkedin.com/in/piinartp)\n- 👨‍💻 **GitHub:** [GitHub Profilim](https://github.com/ThecoderPinar)\n\nİletişime geçmekten çekinmeyin! Geri bildirimleriniz, önerileriniz ve sorularınız için her zaman buradayım."
+    "contact_description": "**Merhaba! Ben Pınar Topuz,** bu uygulamanın geliştiricisiyim. Yazılım geliştirme ve kullanıcı dostu çözümler yaratma konusundaki tutkum, bu uygulamayı geliştirmemde büyük rol oynadı. Kullanıcılara en iyi belge yönetim deneyimini sunmak için buradayım.\n\n**İletişim Bilgilerim:**\n- 📧 **E-posta:** [piinartp@gmail.com](mailto:piinartp@gmail.com)\n- 💼 **LinkedIn:** [LinkedIn Profilim](https://www.linkedin.com/in/piinartp)\n- 👨‍💻 **GitHub:** [GitHub Profilim](https://github.com/ThecoderPinar)\n\nİletişime geçmekten çekinmeyin! Geri bildirimleriniz, önerileriniz ve sorularınız için her zaman buradayım.",
+    "developer_photo": "developer_photo.jpg",
+    "contributors_title": "👥 Katkıda Bulunanlar",
+    "contributors": [
+      {
+        "name": "Pınar Topuz",
+        "role": "Geliştirici",
+        "github": "https://github.com/ThecoderPinar"
+      },
+      {
+        "name": "Syed Mansoor ul Hassan Bukhari",
+        "role": "Katkıda Bulunan",
+        "github": "https://github.com/CyberFantics"
+      }
+    ]
   },
   "English": {
     "project_title": "📄 About the Project",
@@ -39,6 +53,20 @@
       "How useful did you find the options for creating PDFs in different languages?"
     ],
     "contact_title": "📞 Contact the Developer",
-    "contact_description": "**Hello! I'm Pınar Topuz,** the developer of this application. My passion for software development and creating user-friendly solutions played a big role in building this application. I am here to provide you with the best document management experience.\n\n**Contact Information:**\n- 📧 **Email:** [piinartp@gmail.com](mailto:piinartp@gmail.com)\n- 💼 **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/piinartp)\n- 👨‍💻 **GitHub:** [GitHub Profile](https://github.com/ThecoderPinar)\n\nFeel free to reach out! I am always here for your feedback, suggestions, and questions."
+    "contact_description": "**Hello! I'm Pınar Topuz,** the developer of this application. My passion for software development and creating user-friendly solutions played a significant role in developing this application. I'm here to provide users with the best document management experience possible.\n\n**Contact Information:**\n- 📧 **Email:** [piinartp@gmail.com](mailto:piinartp@gmail.com)\n- 💼 **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/piinartp)\n- 👨‍💻 **GitHub:** [My GitHub Profile](https://github.com/ThecoderPinar)\n\nFeel free to reach out! I'm always here for your feedback, suggestions, and questions.",
+    "developer_photo": "developer_photo.jpg",
+    "contributors_title": "👥 Contributors",
+    "contributors": [
+      {
+        "name": "Pınar Topuz",
+        "role": "Developer",
+        "github": "https://github.com/ThecoderPinar"
+      },
+      {
+        "name": "Syed Mansoor ul Hassan Bukhari",
+        "role": "Contributor",
+        "github": "https://github.com/CyberFantics"
+      }
+    ]
   }
 }
